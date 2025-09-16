@@ -1,2 +1,1 @@
-# webdevlab
-Web Development 101 Lab
+# Web Development 101 Lab
