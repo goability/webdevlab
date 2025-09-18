@@ -1,0 +1,50 @@
+/* Footer Styles - Mobile First Design */
+.footer {
+  position: sticky;
+  bottom: 0;
+  z-index: 1000;
+  background: linear-gradient(135deg, #c0c0c0, #a8a8a8);
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.footer-content {
+  text-align: center;
+  color: #333;
+}
+
+.footer-content p {
+  margin: 0.25rem 0;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+  .footer-container {
+    padding: 1.5rem 2rem;
+  }
+
+  .footer-content p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+  .footer-container {
+    padding: 2rem;
+  }
+
+  .footer-content p {
+    font-size: 1rem;
+  }
+}

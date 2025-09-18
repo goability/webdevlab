@@ -1,0 +1,43 @@
+/* Home Component Styles - Mobile First Design */
+.home-container {
+  text-align: center;
+  padding: 2rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.home-title {
+  color: #fff;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-weight: 700;
+}
+
+.home-description {
+  color: #ccc;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+  .home-container {
+    padding: 3rem 2rem;
+  }
+
+  .home-description {
+    font-size: 1.2rem;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+  .home-container {
+    padding: 4rem 2rem;
+  }
+
+  .home-description {
+    font-size: 1.3rem;
+  }
+}
